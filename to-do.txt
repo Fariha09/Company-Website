@@ -1,0 +1,6 @@
+For the homepage
+-making a logo
+-changing the display
+- re-writing the motto of the website
+-font problems
+-incorporating html and css into javascript
