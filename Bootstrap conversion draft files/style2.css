@@ -6,7 +6,10 @@
 body
 {
     overflow-x: hidden;
+    background-color: #fff !important;
+    background-image: linear-gradient(to right, #bbc7d4, #97b2ce);
 }
 h1{
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: #000;
 }
