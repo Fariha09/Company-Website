@@ -1,0 +1,68 @@
+<header class="header navbar navbar-expand-lg navbar-dark navbar-floating navbar-sticky" data-fixed-element>
+        <div class="container px-0 px-xl-3">
+          <button class="navbar-toggler ms-n2 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand flex-shrink-0 order-lg-1 ms-lg-0 pe-lg-2 me-lg-4" href="/">
+            <img class="navbar-floating-logo d-none d-lg-block" src="/img/logo/logo-light.svg" alt="Technuf" style="width: 140px;">
+            <img class="navbar-stuck-logo" src="/img/logo/logo-dark.svg" alt="Technuf" style="width: 100px;">
+            <img class="d-lg-none my-3" src="/img/logo/logo-icon.svg" alt="Technuf" width="90">
+          </a>
+          <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
+            <div class="offcanvas-header navbar-shadow">
+              <h5 class="mt-1 mb-0">Menu</h5>
+              <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-center">
+                <li class="nav-item dropdown">
+                  <a href="about" class="nav-link dropdown-toggle dropdown-toggle-split">About</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="team">Team Members</a></li>
+                    <li><a class="dropdown-item" href="/#naic">NAICS Codes</a></li>
+                    <li><a class="dropdown-item" href="partners">Partners</a></li>
+                    <li><a class="dropdown-item" href="events">News and Events</a></li>
+                    <li><a class="dropdown-item" href="clients">Clients</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="certifications">Certifications</a></li>
+                <li class="nav-item"><a class="nav-link" href="services">Services</a></li>
+                <li class="nav-item dropdown">
+                  <a href="products" class="nav-link dropdown-toggle">Products</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="studentconnect">Student Connect</a></li>
+                    <li><a class="dropdown-item" href="timesheet">Timesheet</a></li>
+                    <li class="nav-item dropdown">
+                      <a class="dropdown-item" href="healthconnect">Health Connect</a>
+                      <ul class="dropdown-menu">
+                        <li class="nav-item dropdown">
+                          <a class="dropdown-item" href="emedny" >eMedNY</a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a href="contract_vehicles" class="nav-link dropdown-toggle dropdown-toggle-split">Contract Vehicles</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="gsa-stars">GSA-STARS III</a></li>
+                    <li><a class="dropdown-item" href="contract_vehicles#gsa-mas">GSA MAS</a></li>
+                    <!-- <li><a class="dropdown-item" href="#">8(a)</a></li>
+                    <li><a class="dropdown-item" href="#">LDBE</a></li>
+                    <li><a class="dropdown-item" href="#">Cisco CDN</a></li>
+                    <li><a class="dropdown-item" href="#">MBE MDOT</a></li> -->
+                    <li><a class="dropdown-item" href="contract_vehicles#md-think">MD Think</a></li>
+                    <li><a class="dropdown-item" href="contract_vehicles#LCATS3">LCATS 3</a></li>
+                    <!-- <li><a class="dropdown-item" href="#">MWAA LDBE</a></li> -->
+                    <li><a class="dropdown-item" href="contract_vehicles#eFast">eFast</a></li>
+                    <li><a class="dropdown-item" href="contract_vehicles#MCCATS">MCCATS</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="https://blog.technuf.com/">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="careers">Careers</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
